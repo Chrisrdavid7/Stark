@@ -1,0 +1,16 @@
+target ‘Stark’ do
+
+ pod 'Firebase/Core'
+ pod ‘Firebase/Auth’ 
+ pod ‘Firebase/Database’ 
+ pod ‘Firebase/Storage’
+ pod 'FirebaseUI'
+ pod 'FirebaseMessaging'
+ pod 'JSQMessagesViewController'
+
+  pod 'JTAppleCalendar'
+
+  use_frameworks!
+
+
+end

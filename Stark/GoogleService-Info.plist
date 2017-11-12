@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>17072839582-kps21haobjt7fp1ueckvmv1i8djlku97.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.17072839582-kps21haobjt7fp1ueckvmv1i8djlku97</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBx3j_l0nBCRHuw8Js0motCvX_ZKimY1jI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>17072839582</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.chrisdavid.Stark</string>
+	<key>PROJECT_ID</key>
+	<string>stark-d22e9</string>
+	<key>STORAGE_BUCKET</key>
+	<string>stark-d22e9.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:17072839582:ios:f520f7f3181b2be0</string>
+	<key>DATABASE_URL</key>
+	<string>https://stark-d22e9.firebaseio.com</string>
+</dict>
+</plist>

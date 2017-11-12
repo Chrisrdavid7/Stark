@@ -10,26 +10,60 @@ import UIKit
 
 class RegistrationViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBOutlet weak var scrollView: UIScrollView!
+    
+    @IBOutlet weak var emailField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
+    @IBOutlet weak var phoneField: UITextField!
+   
+    
+    @IBAction func cancelButton(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        let center: NotificationCenter = NotificationCenter.default;
+        center.addObserver(self, selector: #selector(RegistrationViewController.keyboardDidShow(notification:)), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
+        
+        center.addObserver(self, selector: #selector(RegistrationViewController.keyboardWillHide(notification:)), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+        
     }
-    */
+    @objc func keyboardDidShow (notification: Notification){
+        if ((notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue) != nil{
+            
+            self.scrollView.frame.origin.y = 0
+            self.scrollView.frame.origin.y -= 150
+        }
+        
+    }
+    @objc func keyboardWillHide (notification: Notification){
+        if ((notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue) != nil{
+            
+            self.scrollView.frame.origin.y = 0
+            
+        }
+        
+    }
+    
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+    override func viewWillDisappear(_ animated: Bool) {
+        
+        NotificationCenter.default.removeObserver(self, name: NSNotification.Name.UIKeyboardWillShow, object: nil)
+        NotificationCenter.default.removeObserver(self, name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+    }
+
+    
+    
+
+
 
 }

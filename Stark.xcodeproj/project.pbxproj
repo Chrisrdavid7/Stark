@@ -13,9 +13,26 @@
 		452FF8911FB7646D00B6CEF8 /* Stark.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 452FF88F1FB7646D00B6CEF8 /* Stark.xcdatamodeld */; };
 		452FF8931FB7646D00B6CEF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 452FF8921FB7646D00B6CEF8 /* Assets.xcassets */; };
 		452FF8961FB7646D00B6CEF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452FF8941FB7646D00B6CEF8 /* LaunchScreen.storyboard */; };
+		452FF8A61FB76CE100B6CEF8 /* Tofino Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 452FF89E1FB76CE100B6CEF8 /* Tofino Black.otf */; };
+		452FF8A71FB76CE100B6CEF8 /* Tofino Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 452FF89F1FB76CE100B6CEF8 /* Tofino Bold.otf */; };
+		452FF8A81FB76CE100B6CEF8 /* Tofino Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 452FF8A01FB76CE100B6CEF8 /* Tofino Book.otf */; };
+		452FF8A91FB76CE100B6CEF8 /* Tofino Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 452FF8A11FB76CE100B6CEF8 /* Tofino Light.otf */; };
+		452FF8AA1FB76CE100B6CEF8 /* Tofino Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 452FF8A21FB76CE100B6CEF8 /* Tofino Medium.otf */; };
+		452FF8AB1FB76CE100B6CEF8 /* Tofino Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 452FF8A31FB76CE100B6CEF8 /* Tofino Regular.otf */; };
+		452FF8AC1FB76CE100B6CEF8 /* Tofino Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 452FF8A41FB76CE100B6CEF8 /* Tofino Thin.otf */; };
+		452FF8AD1FB76CE100B6CEF8 /* Tofino Ultra.otf in Resources */ = {isa = PBXBuildFile; fileRef = 452FF8A51FB76CE100B6CEF8 /* Tofino Ultra.otf */; };
+		452FF8B11FB7797700B6CEF8 /* LoginFirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452FF8B01FB7797700B6CEF8 /* LoginFirstScreenViewController.swift */; };
+		452FF8B31FB7BFC100B6CEF8 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452FF8B21FB7BFC100B6CEF8 /* RegistrationViewController.swift */; };
+		452FF8B61FB7D28000B6CEF8 /* JetShuttleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452FF8B41FB7D28000B6CEF8 /* JetShuttleTableViewCell.swift */; };
+		452FF8B71FB7D28000B6CEF8 /* JetShuttleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 452FF8B51FB7D28000B6CEF8 /* JetShuttleTableViewCell.xib */; };
+		452FF8B91FB7DFC300B6CEF8 /* JetShuttleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452FF8B81FB7DFC300B6CEF8 /* JetShuttleViewController.swift */; };
+		452FF8BB1FB7E7D600B6CEF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 452FF8BA1FB7E7D600B6CEF8 /* GoogleService-Info.plist */; };
+		452FF8BD1FB7F28300B6CEF8 /* ShuttleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452FF8BC1FB7F28300B6CEF8 /* ShuttleModel.swift */; };
+		9DEC00D7A5FB56B8826A8980 /* Pods_Stark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104DDC1F506C6FEFD73D38AB /* Pods_Stark.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		104DDC1F506C6FEFD73D38AB /* Pods_Stark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		452FF8851FB7646D00B6CEF8 /* Stark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		452FF8881FB7646D00B6CEF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		452FF88A1FB7646D00B6CEF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +41,23 @@
 		452FF8921FB7646D00B6CEF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		452FF8951FB7646D00B6CEF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		452FF8971FB7646D00B6CEF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		452FF89E1FB76CE100B6CEF8 /* Tofino Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tofino Black.otf"; sourceTree = "<group>"; };
+		452FF89F1FB76CE100B6CEF8 /* Tofino Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tofino Bold.otf"; sourceTree = "<group>"; };
+		452FF8A01FB76CE100B6CEF8 /* Tofino Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tofino Book.otf"; sourceTree = "<group>"; };
+		452FF8A11FB76CE100B6CEF8 /* Tofino Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tofino Light.otf"; sourceTree = "<group>"; };
+		452FF8A21FB76CE100B6CEF8 /* Tofino Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tofino Medium.otf"; sourceTree = "<group>"; };
+		452FF8A31FB76CE100B6CEF8 /* Tofino Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tofino Regular.otf"; sourceTree = "<group>"; };
+		452FF8A41FB76CE100B6CEF8 /* Tofino Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tofino Thin.otf"; sourceTree = "<group>"; };
+		452FF8A51FB76CE100B6CEF8 /* Tofino Ultra.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tofino Ultra.otf"; sourceTree = "<group>"; };
+		452FF8B01FB7797700B6CEF8 /* LoginFirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFirstScreenViewController.swift; sourceTree = "<group>"; };
+		452FF8B21FB7BFC100B6CEF8 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		452FF8B41FB7D28000B6CEF8 /* JetShuttleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetShuttleTableViewCell.swift; sourceTree = "<group>"; };
+		452FF8B51FB7D28000B6CEF8 /* JetShuttleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JetShuttleTableViewCell.xib; sourceTree = "<group>"; };
+		452FF8B81FB7DFC300B6CEF8 /* JetShuttleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetShuttleViewController.swift; sourceTree = "<group>"; };
+		452FF8BA1FB7E7D600B6CEF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		452FF8BC1FB7F28300B6CEF8 /* ShuttleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuttleModel.swift; sourceTree = "<group>"; };
+		B64864A97F28363403BF89CE /* Pods-Stark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stark.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stark/Pods-Stark.debug.xcconfig"; sourceTree = "<group>"; };
+		D0E6DA4A9C23966262283AD0 /* Pods-Stark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stark.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stark/Pods-Stark.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DEC00D7A5FB56B8826A8980 /* Pods_Stark.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CEF7902FE5C7A653AD8341D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				104DDC1F506C6FEFD73D38AB /* Pods_Stark.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		452FF87C1FB7646D00B6CEF8 = {
 			isa = PBXGroup;
 			children = (
 				452FF8871FB7646D00B6CEF8 /* Stark */,
 				452FF8861FB7646D00B6CEF8 /* Products */,
+				7B515C9D7A5BA4E22A33F8F9 /* Pods */,
+				0CEF7902FE5C7A653AD8341D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +103,45 @@
 			children = (
 				452FF8881FB7646D00B6CEF8 /* AppDelegate.swift */,
 				452FF88A1FB7646D00B6CEF8 /* ViewController.swift */,
+				452FF8B01FB7797700B6CEF8 /* LoginFirstScreenViewController.swift */,
+				452FF8B41FB7D28000B6CEF8 /* JetShuttleTableViewCell.swift */,
+				452FF8BC1FB7F28300B6CEF8 /* ShuttleModel.swift */,
+				452FF8B51FB7D28000B6CEF8 /* JetShuttleTableViewCell.xib */,
+				452FF8B21FB7BFC100B6CEF8 /* RegistrationViewController.swift */,
+				452FF8B81FB7DFC300B6CEF8 /* JetShuttleViewController.swift */,
 				452FF88C1FB7646D00B6CEF8 /* Main.storyboard */,
 				452FF8921FB7646D00B6CEF8 /* Assets.xcassets */,
+				452FF89D1FB76CE100B6CEF8 /* Tofino */,
 				452FF8941FB7646D00B6CEF8 /* LaunchScreen.storyboard */,
 				452FF8971FB7646D00B6CEF8 /* Info.plist */,
+				452FF8BA1FB7E7D600B6CEF8 /* GoogleService-Info.plist */,
 				452FF88F1FB7646D00B6CEF8 /* Stark.xcdatamodeld */,
 			);
 			path = Stark;
+			sourceTree = "<group>";
+		};
+		452FF89D1FB76CE100B6CEF8 /* Tofino */ = {
+			isa = PBXGroup;
+			children = (
+				452FF89E1FB76CE100B6CEF8 /* Tofino Black.otf */,
+				452FF89F1FB76CE100B6CEF8 /* Tofino Bold.otf */,
+				452FF8A01FB76CE100B6CEF8 /* Tofino Book.otf */,
+				452FF8A11FB76CE100B6CEF8 /* Tofino Light.otf */,
+				452FF8A21FB76CE100B6CEF8 /* Tofino Medium.otf */,
+				452FF8A31FB76CE100B6CEF8 /* Tofino Regular.otf */,
+				452FF8A41FB76CE100B6CEF8 /* Tofino Thin.otf */,
+				452FF8A51FB76CE100B6CEF8 /* Tofino Ultra.otf */,
+			);
+			path = Tofino;
+			sourceTree = "<group>";
+		};
+		7B515C9D7A5BA4E22A33F8F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B64864A97F28363403BF89CE /* Pods-Stark.debug.xcconfig */,
+				D0E6DA4A9C23966262283AD0 /* Pods-Stark.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 452FF89A1FB7646D00B6CEF8 /* Build configuration list for PBXNativeTarget "Stark" */;
 			buildPhases = (
+				4CBCB87AFA25B1169F98E81D /* [CP] Check Pods Manifest.lock */,
 				452FF8811FB7646D00B6CEF8 /* Sources */,
 				452FF8821FB7646D00B6CEF8 /* Frameworks */,
 				452FF8831FB7646D00B6CEF8 /* Resources */,
+				3B0EB79C4A34539215251DD3 /* [CP] Embed Pods Frameworks */,
+				C10FFC16250C28B1278B8339 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,22 +206,85 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				452FF8AA1FB76CE100B6CEF8 /* Tofino Medium.otf in Resources */,
+				452FF8A91FB76CE100B6CEF8 /* Tofino Light.otf in Resources */,
 				452FF8961FB7646D00B6CEF8 /* LaunchScreen.storyboard in Resources */,
+				452FF8B71FB7D28000B6CEF8 /* JetShuttleTableViewCell.xib in Resources */,
 				452FF8931FB7646D00B6CEF8 /* Assets.xcassets in Resources */,
+				452FF8AD1FB76CE100B6CEF8 /* Tofino Ultra.otf in Resources */,
+				452FF8AB1FB76CE100B6CEF8 /* Tofino Regular.otf in Resources */,
+				452FF8BB1FB7E7D600B6CEF8 /* GoogleService-Info.plist in Resources */,
+				452FF8A81FB76CE100B6CEF8 /* Tofino Book.otf in Resources */,
+				452FF8A71FB76CE100B6CEF8 /* Tofino Bold.otf in Resources */,
 				452FF88E1FB7646D00B6CEF8 /* Main.storyboard in Resources */,
+				452FF8AC1FB76CE100B6CEF8 /* Tofino Thin.otf in Resources */,
+				452FF8A61FB76CE100B6CEF8 /* Tofino Black.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B0EB79C4A34539215251DD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stark/Pods-Stark-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CBCB87AFA25B1169F98E81D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C10FFC16250C28B1278B8339 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stark/Pods-Stark-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		452FF8811FB7646D00B6CEF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				452FF8B91FB7DFC300B6CEF8 /* JetShuttleViewController.swift in Sources */,
 				452FF8911FB7646D00B6CEF8 /* Stark.xcdatamodeld in Sources */,
+				452FF8B61FB7D28000B6CEF8 /* JetShuttleTableViewCell.swift in Sources */,
 				452FF88B1FB7646D00B6CEF8 /* ViewController.swift in Sources */,
 				452FF8891FB7646D00B6CEF8 /* AppDelegate.swift in Sources */,
+				452FF8B11FB7797700B6CEF8 /* LoginFirstScreenViewController.swift in Sources */,
+				452FF8B31FB7BFC100B6CEF8 /* RegistrationViewController.swift in Sources */,
+				452FF8BD1FB7F28300B6CEF8 /* ShuttleModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +419,7 @@
 		};
 		452FF89B1FB7646D00B6CEF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B64864A97F28363403BF89CE /* Pods-Stark.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +435,7 @@
 		};
 		452FF89C1FB7646D00B6CEF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0E6DA4A9C23966262283AD0 /* Pods-Stark.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -7,29 +7,71 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
 
-class JetShuttleViewController: UIViewController {
+struct shuttle {
+    
+    let arrivalTime : String!
+    let arrivalCity : String!
+    let arrivalAirport : String!
+    let data : String!
+    let departureTime : String!
+    let departureCity : String!
+    let flightTime : String!
+    let Plane : String!
+    let Region : String!
+    let seats : String!
+    let seatsLeft : String!
+    let seatsSelected: Int!
 
+    
+}
+
+class JetShuttleViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+   
+    let databaseRef = Database.database().reference()
+    
+    let shuttles = [shuttle]()
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        
+        
+    var shuttlesRef = databaseRef.child("data/Shuttles/Regions/US | East Coast")
+        databaseRef.observeSingleEvent(of: .value, with: { snapshot in
+            let m = snapshot.value as? String
+            
+        })
+        
+    
+        
+            
+            
+        }
+       
+        
+    
+    
+    
+    
+    func post () {
+        
+        
+        
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        <#code#>
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
     }
-    */
+   
 
 }
+
