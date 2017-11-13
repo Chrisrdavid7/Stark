@@ -28,6 +28,10 @@
 		452FF8B91FB7DFC300B6CEF8 /* JetShuttleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452FF8B81FB7DFC300B6CEF8 /* JetShuttleViewController.swift */; };
 		452FF8BB1FB7E7D600B6CEF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 452FF8BA1FB7E7D600B6CEF8 /* GoogleService-Info.plist */; };
 		452FF8BD1FB7F28300B6CEF8 /* ShuttleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452FF8BC1FB7F28300B6CEF8 /* ShuttleModel.swift */; };
+		45B9812F1FB8524400130266 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B9812E1FB8524400130266 /* StoreKit.framework */; };
+		45B981311FB8524B00130266 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B981301FB8524B00130266 /* MapKit.framework */; };
+		45B981331FB85F8800130266 /* VerificationCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B981321FB85F8800130266 /* VerificationCodeViewController.swift */; };
+		45F83AAE1FBA17F2008147D4 /* ShuttleCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45F83AAD1FBA17F2008147D4 /* ShuttleCalendarView.xib */; };
 		9DEC00D7A5FB56B8826A8980 /* Pods_Stark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104DDC1F506C6FEFD73D38AB /* Pods_Stark.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +60,11 @@
 		452FF8B81FB7DFC300B6CEF8 /* JetShuttleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetShuttleViewController.swift; sourceTree = "<group>"; };
 		452FF8BA1FB7E7D600B6CEF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		452FF8BC1FB7F28300B6CEF8 /* ShuttleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuttleModel.swift; sourceTree = "<group>"; };
+		45B9812D1FB8520500130266 /* Stark.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stark.entitlements; sourceTree = "<group>"; };
+		45B9812E1FB8524400130266 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		45B981301FB8524B00130266 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		45B981321FB85F8800130266 /* VerificationCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationCodeViewController.swift; sourceTree = "<group>"; };
+		45F83AAD1FBA17F2008147D4 /* ShuttleCalendarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShuttleCalendarView.xib; sourceTree = "<group>"; };
 		B64864A97F28363403BF89CE /* Pods-Stark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stark.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stark/Pods-Stark.debug.xcconfig"; sourceTree = "<group>"; };
 		D0E6DA4A9C23966262283AD0 /* Pods-Stark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stark.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stark/Pods-Stark.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +75,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DEC00D7A5FB56B8826A8980 /* Pods_Stark.framework in Frameworks */,
+				45B981311FB8524B00130266 /* MapKit.framework in Frameworks */,
+				45B9812F1FB8524400130266 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +86,8 @@
 		0CEF7902FE5C7A653AD8341D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				45B981301FB8524B00130266 /* MapKit.framework */,
+				45B9812E1FB8524400130266 /* StoreKit.framework */,
 				104DDC1F506C6FEFD73D38AB /* Pods_Stark.framework */,
 			);
 			name = Frameworks;
@@ -101,17 +114,14 @@
 		452FF8871FB7646D00B6CEF8 /* Stark */ = {
 			isa = PBXGroup;
 			children = (
+				45B9812D1FB8520500130266 /* Stark.entitlements */,
 				452FF8881FB7646D00B6CEF8 /* AppDelegate.swift */,
-				452FF88A1FB7646D00B6CEF8 /* ViewController.swift */,
-				452FF8B01FB7797700B6CEF8 /* LoginFirstScreenViewController.swift */,
-				452FF8B41FB7D28000B6CEF8 /* JetShuttleTableViewCell.swift */,
-				452FF8BC1FB7F28300B6CEF8 /* ShuttleModel.swift */,
-				452FF8B51FB7D28000B6CEF8 /* JetShuttleTableViewCell.xib */,
-				452FF8B21FB7BFC100B6CEF8 /* RegistrationViewController.swift */,
-				452FF8B81FB7DFC300B6CEF8 /* JetShuttleViewController.swift */,
+				452FF8BE1FB7F5C100B6CEF8 /* Models */,
+				45B981341FB8A86B00130266 /* Login */,
+				45F83AAC1FBA1793008147D4 /* Shuttle */,
 				452FF88C1FB7646D00B6CEF8 /* Main.storyboard */,
 				452FF8921FB7646D00B6CEF8 /* Assets.xcassets */,
-				452FF89D1FB76CE100B6CEF8 /* Tofino */,
+				452FF89D1FB76CE100B6CEF8 /* Resources */,
 				452FF8941FB7646D00B6CEF8 /* LaunchScreen.storyboard */,
 				452FF8971FB7646D00B6CEF8 /* Info.plist */,
 				452FF8BA1FB7E7D600B6CEF8 /* GoogleService-Info.plist */,
@@ -120,7 +130,7 @@
 			path = Stark;
 			sourceTree = "<group>";
 		};
-		452FF89D1FB76CE100B6CEF8 /* Tofino */ = {
+		452FF89D1FB76CE100B6CEF8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				452FF89E1FB76CE100B6CEF8 /* Tofino Black.otf */,
@@ -132,7 +142,37 @@
 				452FF8A41FB76CE100B6CEF8 /* Tofino Thin.otf */,
 				452FF8A51FB76CE100B6CEF8 /* Tofino Ultra.otf */,
 			);
-			path = Tofino;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		452FF8BE1FB7F5C100B6CEF8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				452FF8BC1FB7F28300B6CEF8 /* ShuttleModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		45B981341FB8A86B00130266 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				452FF88A1FB7646D00B6CEF8 /* ViewController.swift */,
+				452FF8B01FB7797700B6CEF8 /* LoginFirstScreenViewController.swift */,
+				45B981321FB85F8800130266 /* VerificationCodeViewController.swift */,
+				452FF8B21FB7BFC100B6CEF8 /* RegistrationViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		45F83AAC1FBA1793008147D4 /* Shuttle */ = {
+			isa = PBXGroup;
+			children = (
+				452FF8B41FB7D28000B6CEF8 /* JetShuttleTableViewCell.swift */,
+				452FF8B51FB7D28000B6CEF8 /* JetShuttleTableViewCell.xib */,
+				452FF8B81FB7DFC300B6CEF8 /* JetShuttleViewController.swift */,
+				45F83AAD1FBA17F2008147D4 /* ShuttleCalendarView.xib */,
+			);
+			path = Shuttle;
 			sourceTree = "<group>";
 		};
 		7B515C9D7A5BA4E22A33F8F9 /* Pods */ = {
@@ -180,6 +220,20 @@
 					452FF8841FB7646D00B6CEF8 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -206,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45F83AAE1FBA17F2008147D4 /* ShuttleCalendarView.xib in Resources */,
 				452FF8AA1FB76CE100B6CEF8 /* Tofino Medium.otf in Resources */,
 				452FF8A91FB76CE100B6CEF8 /* Tofino Light.otf in Resources */,
 				452FF8961FB7646D00B6CEF8 /* LaunchScreen.storyboard in Resources */,
@@ -280,6 +335,7 @@
 				452FF8B91FB7DFC300B6CEF8 /* JetShuttleViewController.swift in Sources */,
 				452FF8911FB7646D00B6CEF8 /* Stark.xcdatamodeld in Sources */,
 				452FF8B61FB7D28000B6CEF8 /* JetShuttleTableViewCell.swift in Sources */,
+				45B981331FB85F8800130266 /* VerificationCodeViewController.swift in Sources */,
 				452FF88B1FB7646D00B6CEF8 /* ViewController.swift in Sources */,
 				452FF8891FB7646D00B6CEF8 /* AppDelegate.swift in Sources */,
 				452FF8B11FB7797700B6CEF8 /* LoginFirstScreenViewController.swift in Sources */,
@@ -422,6 +478,7 @@
 			baseConfigurationReference = B64864A97F28363403BF89CE /* Pods-Stark.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Stark/Stark.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M4GDC7G56X;
 				INFOPLIST_FILE = Stark/Info.plist;
@@ -438,6 +495,7 @@
 			baseConfigurationReference = D0E6DA4A9C23966262283AD0 /* Pods-Stark.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Stark/Stark.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M4GDC7G56X;
 				INFOPLIST_FILE = Stark/Info.plist;

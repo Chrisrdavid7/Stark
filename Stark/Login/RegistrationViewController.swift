@@ -64,6 +64,4 @@ class RegistrationViewController: UIViewController {
     
     
 
-
-
 }

@@ -7,30 +7,32 @@
 //
 
 class ShuttleModel {
-    
-    let arrivalTime : String?
+    let shuttleName : String?
+    let arrivalTime : Int?
     let arrivalCity : String?
     let arrivalAirport : String?
-    let date : String?
-    let departureTime : String?
+    let date : Int?
+    let departureTime : Int?
     let departureCity : String?
-    let flightTime : String?
+    let departureAirport : String?
+    let flightTime : Int?
     let plane : String?
     let region : String?
-    let seats : String?
-    let seatsLeft : String?
+    let seats : Int?
+    let seatsLeft : Int?
     let seatsSelected: Int?
 
     
-    init(arrivalTime:String?, arrivalCity:String?, arrivalAirport:String?, date:String?, departureTime:String?, departureCity:String?, flightTime:String?, plane:String?, region:String?, seats:String?, seatsLeft:String?, seatsSelected:Int?) {
+    init(shuttleName: String?, arrivalTime:Int?, arrivalCity:String?, arrivalAirport:String?, date:Int?, departureTime:Int?, departureCity:String?, departureAirport:String?, flightTime:Int?, plane:String?, region:String?, seats:Int?, seatsLeft:Int?, seatsSelected:Int?) {
         
-        
+        self.shuttleName = shuttleName;
         self.arrivalTime = arrivalTime;
         self.arrivalCity = arrivalCity;
         self.arrivalAirport = arrivalAirport;
         self.date = date;
         self.departureTime = departureTime;
         self.departureCity = departureCity;
+        self.departureAirport = departureAirport;
         self.flightTime = flightTime;
         self.plane = plane;
         self.region = region;
