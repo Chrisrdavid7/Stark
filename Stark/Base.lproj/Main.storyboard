@@ -61,7 +61,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="gSF-le-l8G" kind="show" id="r20-qP-iF0"/>
+                                                    <segue destination="S8p-Mu-GYp" kind="show" id="2nh-fh-6Tn"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -755,11 +755,11 @@
             <objects>
                 <navigationController id="o2g-IY-pWg" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Shuttle" id="50g-KF-GLf"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" backIndicatorImage="NavBackButton" backIndicatorTransitionMaskImage="NavBackButton" id="yNy-X6-hOz">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yNy-X6-hOz">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <connections>
                         <segue destination="Iyn-Vt-Btx" kind="relationship" relationship="rootViewController" id="6Ug-gH-cy0"/>
@@ -1098,7 +1098,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J3L-qU-5F3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4519" y="3699"/>
+            <point key="canvasLocation" x="4705" y="3698"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="VWI-MD-ose">
@@ -1335,7 +1335,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xUZ-Db-uKO">
-                                                    <rect key="frame" x="319.5" y="13" width="35.5" height="18"/>
+                                                    <rect key="frame" x="320" y="13" width="35" height="18"/>
                                                     <fontDescription key="fontDescription" name="Tofino-Book" family="Tofino" pointSize="13"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -1513,6 +1513,13 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kI6-Yg-iU8">
+                                <rect key="frame" x="-5" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Title" id="2hS-ZK-ijh"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -1858,21 +1865,21 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="J7P-3c-mDU">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plusSign" translatesAutoresizingMaskIntoConstraints="NO" id="J7P-3c-mDU">
                                                     <rect key="frame" x="310" y="39.5" width="20" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="Lc8-pb-8ux"/>
                                                         <constraint firstAttribute="width" constant="20" id="dC1-J0-aox"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zy3-qn-5kv">
-                                                    <rect key="frame" x="254.5" y="30" width="40.5" height="41"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zy3-qn-5kv">
+                                                    <rect key="frame" x="274.5" y="30" width="20.5" height="41"/>
                                                     <fontDescription key="fontDescription" name="Tofino-Medium" family="Tofino" pointSize="30"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vxo-AQ-203">
-                                                    <rect key="frame" x="219.5" y="40" width="20" height="20"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="minusSign" translatesAutoresizingMaskIntoConstraints="NO" id="vxo-AQ-203">
+                                                    <rect key="frame" x="239.5" y="40" width="20" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="dLW-4j-lGM"/>
                                                         <constraint firstAttribute="width" constant="20" id="eet-hA-DZc"/>
@@ -2129,6 +2136,15 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FHf-Gd-6d6">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem id="YMF-Ys-zAj">
+                                        <barButtonItem key="backBarButtonItem" title="         " id="ckK-Jt-5OZ"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -2416,7 +2432,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forgot Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iq0-q6-Cpl">
-                                                <rect key="frame" x="107" y="286.5" width="162" height="27.5"/>
+                                                <rect key="frame" x="106.5" y="286.5" width="162" height="27.5"/>
                                                 <fontDescription key="fontDescription" name="Tofino-Medium" family="Tofino" pointSize="20"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -3020,6 +3036,8 @@
         <image name="SanFran" width="100" height="80"/>
         <image name="back" width="20" height="16"/>
         <image name="backgroundMap" width="269" height="144"/>
+        <image name="minusSign" width="50" height="50"/>
         <image name="placeHolderPlane" width="365" height="202"/>
+        <image name="plusSign" width="50" height="50"/>
     </resources>
 </document>
