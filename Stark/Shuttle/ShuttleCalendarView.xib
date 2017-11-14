@@ -92,47 +92,47 @@
                             <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                             <subviews>
                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="GSv-wG-nW4">
-                                    <rect key="frame" x="0.0" y="62" width="375" height="18"/>
+                                    <rect key="frame" x="0.0" y="64.5" width="375" height="15.5"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sun" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lAa-Ze-D9N">
-                                            <rect key="frame" x="0.0" y="0.0" width="53.5" height="18"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="53.5" height="15.5"/>
                                             <fontDescription key="fontDescription" name="Tofino-Book" family="Tofino" pointSize="13"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdU-Kz-nt6">
-                                            <rect key="frame" x="53.5" y="0.0" width="53.5" height="18"/>
+                                            <rect key="frame" x="53.5" y="0.0" width="53.5" height="15.5"/>
                                             <fontDescription key="fontDescription" name="Tofino-Book" family="Tofino" pointSize="13"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifA-rq-pUa">
-                                            <rect key="frame" x="107" y="0.0" width="53.5" height="18"/>
+                                            <rect key="frame" x="107" y="0.0" width="53.5" height="15.5"/>
                                             <fontDescription key="fontDescription" name="Tofino-Book" family="Tofino" pointSize="13"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xhw-Hj-Bb6">
-                                            <rect key="frame" x="160.5" y="0.0" width="54" height="18"/>
+                                            <rect key="frame" x="160.5" y="0.0" width="54" height="15.5"/>
                                             <fontDescription key="fontDescription" name="Tofino-Book" family="Tofino" pointSize="13"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JbR-z7-f2R">
-                                            <rect key="frame" x="214.5" y="0.0" width="53.5" height="18"/>
+                                            <rect key="frame" x="214.5" y="0.0" width="53.5" height="15.5"/>
                                             <fontDescription key="fontDescription" name="Tofino-Book" family="Tofino" pointSize="13"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fri" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z7J-fx-qqw">
-                                            <rect key="frame" x="268" y="0.0" width="53.5" height="18"/>
+                                            <rect key="frame" x="268" y="0.0" width="53.5" height="15.5"/>
                                             <fontDescription key="fontDescription" name="Tofino-Book" family="Tofino" pointSize="13"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Pj-ln-K8Y">
-                                            <rect key="frame" x="321.5" y="0.0" width="53.5" height="18"/>
+                                            <rect key="frame" x="321.5" y="0.0" width="53.5" height="15.5"/>
                                             <fontDescription key="fontDescription" name="Tofino-Book" family="Tofino" pointSize="13"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                 </stackView>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NOVEMBER 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3aG-6m-6TA">
-                                    <rect key="frame" x="109.5" y="19.5" width="156.5" height="27.5"/>
+                                    <rect key="frame" x="107" y="26" width="161.5" height="23.5"/>
                                     <fontDescription key="fontDescription" name="Tofino-Medium" family="Tofino" pointSize="20"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
@@ -166,13 +166,13 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xhD-0w-WxA">
-                                                <rect key="frame" x="10" y="10" width="4" height="18"/>
+                                                <rect key="frame" x="10" y="10" width="7.5" height="15.5"/>
                                                 <fontDescription key="fontDescription" name="Tofino-Book" family="Tofino" pointSize="13"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1:00 PM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eln-r5-m7H">
-                                                <rect key="frame" x="28.5" y="43.5" width="31.5" height="12.5"/>
+                                                <rect key="frame" x="26" y="44.5" width="34" height="10.5"/>
                                                 <fontDescription key="fontDescription" name="Tofino-Book" family="Tofino" pointSize="9"/>
                                                 <color key="textColor" red="1" green="0.37647058823529411" blue="0.070588235294117646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>

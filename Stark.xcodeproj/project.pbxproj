@@ -32,6 +32,7 @@
 		45B981311FB8524B00130266 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B981301FB8524B00130266 /* MapKit.framework */; };
 		45B981331FB85F8800130266 /* VerificationCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B981321FB85F8800130266 /* VerificationCodeViewController.swift */; };
 		45F83AAE1FBA17F2008147D4 /* ShuttleCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45F83AAD1FBA17F2008147D4 /* ShuttleCalendarView.xib */; };
+		45F83AB01FBA55F1008147D4 /* Purchase.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45F83AAF1FBA55F1008147D4 /* Purchase.xib */; };
 		9DEC00D7A5FB56B8826A8980 /* Pods_Stark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104DDC1F506C6FEFD73D38AB /* Pods_Stark.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		45B981301FB8524B00130266 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		45B981321FB85F8800130266 /* VerificationCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationCodeViewController.swift; sourceTree = "<group>"; };
 		45F83AAD1FBA17F2008147D4 /* ShuttleCalendarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShuttleCalendarView.xib; sourceTree = "<group>"; };
+		45F83AAF1FBA55F1008147D4 /* Purchase.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Purchase.xib; sourceTree = "<group>"; };
 		B64864A97F28363403BF89CE /* Pods-Stark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stark.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stark/Pods-Stark.debug.xcconfig"; sourceTree = "<group>"; };
 		D0E6DA4A9C23966262283AD0 /* Pods-Stark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stark.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stark/Pods-Stark.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -171,6 +173,7 @@
 				452FF8B51FB7D28000B6CEF8 /* JetShuttleTableViewCell.xib */,
 				452FF8B81FB7DFC300B6CEF8 /* JetShuttleViewController.swift */,
 				45F83AAD1FBA17F2008147D4 /* ShuttleCalendarView.xib */,
+				45F83AAF1FBA55F1008147D4 /* Purchase.xib */,
 			);
 			path = Shuttle;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				452FF8A71FB76CE100B6CEF8 /* Tofino Bold.otf in Resources */,
 				452FF88E1FB7646D00B6CEF8 /* Main.storyboard in Resources */,
 				452FF8AC1FB76CE100B6CEF8 /* Tofino Thin.otf in Resources */,
+				45F83AB01FBA55F1008147D4 /* Purchase.xib in Resources */,
 				452FF8A61FB76CE100B6CEF8 /* Tofino Black.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
